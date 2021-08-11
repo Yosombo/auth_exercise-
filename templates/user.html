@@ -1,0 +1,8 @@
+{%extends 'base.html'%}{%block title%}Secret{%endblock%} {%block content%}
+<h1>Shhh secret route</h1>
+<p><b>Username:</b> {{user.username}}</p>
+<p><b>Email:</b> {{user.email}}</p>
+<p><b>First name:</b> {{user.first_name}}</p>
+<p><b>Last name:</b> {{user.last_name}}</p>
+<button><a href="/logout">Logout</a></button>
+{%endblock%}
